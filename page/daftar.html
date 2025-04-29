@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F1D02310003_LombokCool</title>
+
+  <!-- style -->
+  <link rel="stylesheet" href="../css/daftar.css" />
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- icon -->
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <h1 class="navbar-logo-text">Lombok<span>Cool</span></h1>
+    </div>
+
+    <div class="navbar-nav">
+      <a href="index.html">Home</a>
+      <a href="layanan.html">Layanan</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="../php/daftar.php">Hubungi Kami</a>
+      <a href="../php/admin/login_admin.php">Admin</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="menu"><i data-feather="menu"></i></a>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- Form -->
+  <div class="form">
+    <form action="#" class="sub-form">
+      <div class="upper-form">
+        <h2>Hubungi Kami</h2>
+
+        <label for="nama">Nama</label>
+        <input type="text" name="nama" id="nama" placeholder="Masukkan Nama Anda" class="input-form" />
+
+        <label for="alamat">Alamat</label>
+        <input type="text" name="alamat" id="alamat" placeholder="Masukkan Alamat Anda" class="input-form" />
+
+        <label for="telepon">Telepon</label>
+        <input type="text" name="telepon" id="telepon" placeholder="Masukkan Telepon Anda" class="input-form" />
+
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="Masukkan Email Anda" class="input-form" />
+
+        <!-- Pilihan Layanan -->
+        <label for="layanan">Pilih Layanan</label>
+        <select name="layanan" id="layanan" class="input-form">
+          <option value="" disabled selected>
+            Pilih layanan yang dibutuhkan
+          </option>
+          <option value="service_rutin">Service Rutin (Cuci AC)</option>
+          <option value="service_perbaikan">Service Perbaikan AC</option>
+          <option value="isi_freon">Isi Ulang Freon</option>
+          <option value="pasang_baru">Pasang Baru</option>
+          <option value="bongkar_pasang">Bongkar Pasang</option>
+          <option value="perawatan_besar">Perawatan AC Besar</option>
+          <option value="tambah_pipa">Jasa Tambah Pipa AC</option>
+          <option value="service_compresor">Service Kompresor</option>
+        </select>
+
+        <button type="submit" class="btn-form">Kirim</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- script fether -->
+  <script>
+    feather.replace();
+  </script>
+
+  <!-- my js -->
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
